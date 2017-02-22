@@ -7,7 +7,7 @@
 # install node_modules
 yarn
 # install browser package
-cd src && bower install jquery@1.12.0
+bower install jquery@1.12.0
 ```
 
 # dev
