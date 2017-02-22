@@ -1,0 +1,19 @@
+// 关键需要 less-plugin-functions 来给 less 提供自定义函数支持
+// You need less-plugin-functions
+.function {
+    .rem(@size) {
+        // 640 是设计稿宽度
+        // 640 is psd width
+        return: @size/(640/320*16)+0rem;
+    }
+    .rem6(@size) {
+        // 640 是设计稿宽度
+        // 640 is psd width
+        return: @size/(640/320*16)+0rem;
+    }
+    .rem7(@size) {
+        // 740 是设计稿宽度
+        // 740 is psd width
+        return: @size/(740/320*16)+0rem;
+    }
+}

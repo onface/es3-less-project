@@ -1,0 +1,30 @@
+{
+  "name": "es3-less",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "./node_modules/gulp/bin/gulp.js --gulpfile ./config/gulpfile.js",
+    "open": "node ./config/open",
+    "s": "npm run open && nodemon -w mock.js mock.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "cp-file": "^4.1.1",
+    "fms": "^0.0.35",
+    "glob": "^7.1.1",
+    "gulp": "^3.9.1",
+    "gulp-less": "^3.3.0",
+    "hash-to-port": "^1.0.0",
+    "less-plugin-autoprefix": "^1.5.1",
+    "less-plugin-functions": "^0.0.2",
+    "less-plugin-npm-import": "^2.1.0",
+    "livereload": "^0.6.0",
+    "open": "^0.0.5"
+  },
+  "dependencies": {
+    "normalize.css": "^5.0.0"
+  }
+}
