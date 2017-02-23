@@ -1,11 +1,3 @@
-var componentname = function (name) {
-    name = name.replace(/react/g,'').replace(/(_|-)/g, '').replace(/\..*$/,'')
-    if (name.length === 0) {
-        name = 'some'
-    }
-    var capitalizeName = name[0].toUpperCase() + name.slice(1)
-    return capitalizeName
-}
 module.exports = {
     prompts: {
         name: {

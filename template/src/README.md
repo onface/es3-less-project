@@ -21,3 +21,7 @@ npm run s
 
 `src/bower_components`
 `m/`
+
+# mobile use rem
+
+https://github.com/fast-flow/lessrem
