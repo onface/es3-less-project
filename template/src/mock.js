@@ -27,3 +27,11 @@ app.ajax({
         }
     }
 })
+
+app.ajax({
+    url: '/data/index.php',
+    type: 'get',
+    res: {
+        ok: 'var __VIEW_RENDER_DATA = {"title": "abc"}'
+    }
+})
