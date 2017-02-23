@@ -1,18 +1,23 @@
 # es3-less
 
 
-# install
+# Install
 
 ```shell
 # install node_modules
 yarn
-# install browser package
-bower install jquery@1.12.0
+# user browser install package
+https://bower.io/search/
 ```
 
-# dev
+# Develop
 
 ```shel
 npm run dev
 npm run s
 ```
+
+# Recommended package
+
+`src/bower_components`
+`m/`

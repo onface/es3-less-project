@@ -1,11 +1,11 @@
 {
-  "name": "es3-less",
+  "name": "{{ name }}",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "./node_modules/gulp/bin/gulp.js --gulpfile ./config/gulpfile.js",
+    "dev": "gulp --gulpfile ./config/gulpfile.js",
     "open": "node ./config/open",
     "s": "npm run open && nodemon -w mock.js mock.js"
   },
