@@ -21,6 +21,7 @@ npm run s
 
 `src/bower_components`
 `m/`
+`https://pkgzip.com/`
 
 # mobile use rem
 
